@@ -1,0 +1,1394 @@
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Isaiah\Documents\mapping\fores\fores.vmf
+Patching WVT material: maps/fores/gm_construct/grass_13_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Isaiah\Documents\mapping\fores\fores.prt...Building visibility clusters...
+done (0)
+Can't load skybox file skybox/sky_ep02_05_hdr to build the default cubemap!
+Can't load skybox file skybox/sky_ep02_05_hdr to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2314 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 3
+Reduced 4 texdatas to 3 (101 bytes to 79)
+Writing C:\Users\Isaiah\Documents\mapping\fores\fores.bsp
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\isaiah\documents\mapping\fores\fores.bsp
+reading c:\users\isaiah\documents\mapping\fores\fores.prt
+ 256 portalclusters
+ 480 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 65536
+Average clusters visible: 256
+Building PAS...
+Average clusters audible: 256
+visdatasize:18436  compressed from 16384
+writing c:\users\isaiah\documents\mapping\fores\fores.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaiah\documents\mapping\fores\fores.bsp
+PREP OK
+2344 faces
+8412710 square feet [1211430272.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2344 patches before subdivision
+133424 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 647652, max 2024
+transfer lists:   4.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0724 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                  6/16384          72/196608   ( 0.0%) 
+brushsides              36/163840        288/1310720  ( 0.0%) 
+planes                  96/65536        1920/1310720  ( 0.1%) 
+vertexes              2421/65536       29052/786432   ( 3.7%) 
+nodes                  883/65536       28256/2097152  ( 1.3%) 
+texinfos                 3/12288         216/884736   ( 0.0%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2344/65536      131264/3670016  ( 3.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces                6/65536         336/3670016  ( 0.0%) 
+leaves                 885/65536       28320/2097152  ( 1.4%) 
+leaffaces             2344/65536        4688/131072   ( 3.6%) 
+leafbrushes            576/65536        1152/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             9516/512000      38064/2048000  ( 1.9%) 
+edges                 4771/256000      19084/1024000  ( 1.9%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     4453768/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       18436/16777216 ( 0.1%) 
+entdata               [variable]        6235/393216   ( 1.6%) 
+LDR ambient table      885/65536        3540/262144   ( 1.4%) 
+HDR ambient table      885/65536        3540/262144   ( 1.4%) 
+LDR leaf ambient      3318/65536       92904/1835008  ( 5.1%) 
+HDR leaf ambient       885/65536       24780/1835008  ( 1.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]         441/0        ( 0.0%) 
+physics               [variable]        2314/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4804
+Writing c:\users\isaiah\documents\mapping\fores\fores.bsp
+6 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaiah\documents\mapping\fores\fores.bsp
+PREP OK
+2344 faces
+8412710 square feet [1211430272.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2344 patches before subdivision
+133424 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 647652, max 2024
+transfer lists:   4.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0747 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                  6/16384          72/196608   ( 0.0%) 
+brushsides              36/163840        288/1310720  ( 0.0%) 
+planes                  96/65536        1920/1310720  ( 0.1%) 
+vertexes              2421/65536       29052/786432   ( 3.7%) 
+nodes                  883/65536       28256/2097152  ( 1.3%) 
+texinfos                 3/12288         216/884736   ( 0.0%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2344/65536      131264/3670016  ( 3.6%) 
+hdr faces             2344/65536      131264/3670016  ( 3.6%) 
+origfaces                6/65536         336/3670016  ( 0.0%) 
+leaves                 885/65536       28320/2097152  ( 1.4%) 
+leaffaces             2344/65536        4688/131072   ( 3.6%) 
+leafbrushes            576/65536        1152/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             9516/512000      38064/2048000  ( 1.9%) 
+edges                 4771/256000      19084/1024000  ( 1.9%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          2/8192          176/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     4453768/0        ( 0.0%) 
+HDR lightdata         [variable]     4453768/0        ( 0.0%) 
+visdata               [variable]       18436/16777216 ( 0.1%) 
+entdata               [variable]        6235/393216   ( 1.6%) 
+LDR ambient table      885/65536        3540/262144   ( 1.4%) 
+HDR ambient table      885/65536        3540/262144   ( 1.4%) 
+LDR leaf ambient      3318/65536       92904/1835008  ( 5.1%) 
+HDR leaf ambient       256/65536        7168/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]         441/0        ( 0.0%) 
+physics               [variable]        2314/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4804
+Writing c:\users\isaiah\documents\mapping\fores\fores.bsp
+5 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Isaiah\Documents\mapping\fores\fores.vmf
+Patching WVT material: maps/fores/gm_construct/grass_13_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Isaiah\Documents\mapping\fores\fores.prt...Building visibility clusters...
+done (0)
+Can't load skybox file skybox/sky_ep02_05_hdr to build the default cubemap!
+Can't load skybox file skybox/sky_ep02_05_hdr to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2314 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 3
+Reduced 4 texdatas to 3 (101 bytes to 79)
+Writing C:\Users\Isaiah\Documents\mapping\fores\fores.bsp
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\isaiah\documents\mapping\fores\fores.bsp
+reading c:\users\isaiah\documents\mapping\fores\fores.prt
+ 256 portalclusters
+ 480 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 65536
+Average clusters visible: 256
+Building PAS...
+Average clusters audible: 256
+visdatasize:18436  compressed from 16384
+writing c:\users\isaiah\documents\mapping\fores\fores.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaiah\documents\mapping\fores\fores.bsp
+PREP OK
+2344 faces
+8412710 square feet [1211430272.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2344 patches before subdivision
+133424 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 647652, max 2024
+transfer lists:   4.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0745 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                  6/16384          72/196608   ( 0.0%) 
+brushsides              36/163840        288/1310720  ( 0.0%) 
+planes                  96/65536        1920/1310720  ( 0.1%) 
+vertexes              2421/65536       29052/786432   ( 3.7%) 
+nodes                  883/65536       28256/2097152  ( 1.3%) 
+texinfos                 3/12288         216/884736   ( 0.0%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2344/65536      131264/3670016  ( 3.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces                6/65536         336/3670016  ( 0.0%) 
+leaves                 885/65536       28320/2097152  ( 1.4%) 
+leaffaces             2344/65536        4688/131072   ( 3.6%) 
+leafbrushes            576/65536        1152/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             9516/512000      38064/2048000  ( 1.9%) 
+edges                 4771/256000      19084/1024000  ( 1.9%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     4453768/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       18436/16777216 ( 0.1%) 
+entdata               [variable]        6202/393216   ( 1.6%) 
+LDR ambient table      885/65536        3540/262144   ( 1.4%) 
+HDR ambient table      885/65536        3540/262144   ( 1.4%) 
+LDR leaf ambient      3318/65536       92904/1835008  ( 5.1%) 
+HDR leaf ambient       885/65536       24780/1835008  ( 1.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]         441/0        ( 0.0%) 
+physics               [variable]        2314/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4804
+Writing c:\users\isaiah\documents\mapping\fores\fores.bsp
+7 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaiah\documents\mapping\fores\fores.bsp
+PREP OK
+2344 faces
+8412710 square feet [1211430272.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2344 patches before subdivision
+133424 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 647652, max 2024
+transfer lists:   4.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0846 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                  6/16384          72/196608   ( 0.0%) 
+brushsides              36/163840        288/1310720  ( 0.0%) 
+planes                  96/65536        1920/1310720  ( 0.1%) 
+vertexes              2421/65536       29052/786432   ( 3.7%) 
+nodes                  883/65536       28256/2097152  ( 1.3%) 
+texinfos                 3/12288         216/884736   ( 0.0%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2344/65536      131264/3670016  ( 3.6%) 
+hdr faces             2344/65536      131264/3670016  ( 3.6%) 
+origfaces                6/65536         336/3670016  ( 0.0%) 
+leaves                 885/65536       28320/2097152  ( 1.4%) 
+leaffaces             2344/65536        4688/131072   ( 3.6%) 
+leafbrushes            576/65536        1152/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             9516/512000      38064/2048000  ( 1.9%) 
+edges                 4771/256000      19084/1024000  ( 1.9%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          2/8192          176/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     4453768/0        ( 0.0%) 
+HDR lightdata         [variable]     4453768/0        ( 0.0%) 
+visdata               [variable]       18436/16777216 ( 0.1%) 
+entdata               [variable]        6202/393216   ( 1.6%) 
+LDR ambient table      885/65536        3540/262144   ( 1.4%) 
+HDR ambient table      885/65536        3540/262144   ( 1.4%) 
+LDR leaf ambient      3318/65536       92904/1835008  ( 5.1%) 
+HDR leaf ambient      3318/65536       92904/1835008  ( 5.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]         441/0        ( 0.0%) 
+physics               [variable]        2314/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4804
+Writing c:\users\isaiah\documents\mapping\fores\fores.bsp
+7 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Isaiah\Documents\mapping\fores\fores.vmf
+Patching WVT material: maps/fores/gm_construct/grass_13_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Isaiah\Documents\mapping\fores\fores.prt...Building visibility clusters...
+done (0)
+Can't load skybox file skybox/sky_ep02_05_hdr to build the default cubemap!
+Can't load skybox file skybox/sky_ep02_05_hdr to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2314 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 3
+Reduced 4 texdatas to 3 (101 bytes to 79)
+Writing C:\Users\Isaiah\Documents\mapping\fores\fores.bsp
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\isaiah\documents\mapping\fores\fores.bsp
+reading c:\users\isaiah\documents\mapping\fores\fores.prt
+ 256 portalclusters
+ 480 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 65536
+Average clusters visible: 256
+Building PAS...
+Average clusters audible: 256
+visdatasize:18436  compressed from 16384
+writing c:\users\isaiah\documents\mapping\fores\fores.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaiah\documents\mapping\fores\fores.bsp
+PREP OK
+2344 faces
+8412710 square feet [1211430272.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2344 patches before subdivision
+133424 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 647652, max 2024
+transfer lists:   4.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0761 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                  6/16384          72/196608   ( 0.0%) 
+brushsides              36/163840        288/1310720  ( 0.0%) 
+planes                  96/65536        1920/1310720  ( 0.1%) 
+vertexes              2421/65536       29052/786432   ( 3.7%) 
+nodes                  883/65536       28256/2097152  ( 1.3%) 
+texinfos                 3/12288         216/884736   ( 0.0%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2344/65536      131264/3670016  ( 3.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces                6/65536         336/3670016  ( 0.0%) 
+leaves                 885/65536       28320/2097152  ( 1.4%) 
+leaffaces             2344/65536        4688/131072   ( 3.6%) 
+leafbrushes            576/65536        1152/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             9516/512000      38064/2048000  ( 1.9%) 
+edges                 4771/256000      19084/1024000  ( 1.9%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     4453768/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       18436/16777216 ( 0.1%) 
+entdata               [variable]        6624/393216   ( 1.7%) 
+LDR ambient table      885/65536        3540/262144   ( 1.4%) 
+HDR ambient table      885/65536        3540/262144   ( 1.4%) 
+LDR leaf ambient      3420/65536       95760/1835008  ( 5.2%) 
+HDR leaf ambient       885/65536       24780/1835008  ( 1.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]         441/0        ( 0.0%) 
+physics               [variable]        2314/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4804
+Writing c:\users\isaiah\documents\mapping\fores\fores.bsp
+7 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaiah\documents\mapping\fores\fores.bsp
+PREP OK
+2344 faces
+8412710 square feet [1211430272.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2344 patches before subdivision
+133424 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 647652, max 2024
+transfer lists:   4.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0849 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                  6/16384          72/196608   ( 0.0%) 
+brushsides              36/163840        288/1310720  ( 0.0%) 
+planes                  96/65536        1920/1310720  ( 0.1%) 
+vertexes              2421/65536       29052/786432   ( 3.7%) 
+nodes                  883/65536       28256/2097152  ( 1.3%) 
+texinfos                 3/12288         216/884736   ( 0.0%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2344/65536      131264/3670016  ( 3.6%) 
+hdr faces             2344/65536      131264/3670016  ( 3.6%) 
+origfaces                6/65536         336/3670016  ( 0.0%) 
+leaves                 885/65536       28320/2097152  ( 1.4%) 
+leaffaces             2344/65536        4688/131072   ( 3.6%) 
+leafbrushes            576/65536        1152/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             9516/512000      38064/2048000  ( 1.9%) 
+edges                 4771/256000      19084/1024000  ( 1.9%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          2/8192          176/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     4453768/0        ( 0.0%) 
+HDR lightdata         [variable]     4453768/0        ( 0.0%) 
+visdata               [variable]       18436/16777216 ( 0.1%) 
+entdata               [variable]        6624/393216   ( 1.7%) 
+LDR ambient table      885/65536        3540/262144   ( 1.4%) 
+HDR ambient table      885/65536        3540/262144   ( 1.4%) 
+LDR leaf ambient      3420/65536       95760/1835008  ( 5.2%) 
+HDR leaf ambient      3420/65536       95760/1835008  ( 5.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]         441/0        ( 0.0%) 
+physics               [variable]        2314/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4804
+Writing c:\users\isaiah\documents\mapping\fores\fores.bsp
+7 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Isaiah\Documents\mapping\fores\fores.vmf
+Patching WVT material: maps/fores/gm_construct/grass_13_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Isaiah\Documents\mapping\fores\fores.prt...Building visibility clusters...
+done (0)
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2314 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 3
+Reduced 4 texdatas to 3 (101 bytes to 79)
+Writing C:\Users\Isaiah\Documents\mapping\fores\fores.bsp
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\isaiah\documents\mapping\fores\fores.bsp
+reading c:\users\isaiah\documents\mapping\fores\fores.prt
+ 256 portalclusters
+ 480 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 65536
+Average clusters visible: 256
+Building PAS...
+Average clusters audible: 256
+visdatasize:18436  compressed from 16384
+writing c:\users\isaiah\documents\mapping\fores\fores.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaiah\documents\mapping\fores\fores.bsp
+PREP OK
+2344 faces
+8412710 square feet [1211430272.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2344 patches before subdivision
+133424 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 647652, max 2024
+transfer lists:   4.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0778 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                  6/16384          72/196608   ( 0.0%) 
+brushsides              36/163840        288/1310720  ( 0.0%) 
+planes                  96/65536        1920/1310720  ( 0.1%) 
+vertexes              2421/65536       29052/786432   ( 3.7%) 
+nodes                  883/65536       28256/2097152  ( 1.3%) 
+texinfos                 3/12288         216/884736   ( 0.0%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2344/65536      131264/3670016  ( 3.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces                6/65536         336/3670016  ( 0.0%) 
+leaves                 885/65536       28320/2097152  ( 1.4%) 
+leaffaces             2344/65536        4688/131072   ( 3.6%) 
+leafbrushes            576/65536        1152/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             9516/512000      38064/2048000  ( 1.9%) 
+edges                 4771/256000      19084/1024000  ( 1.9%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     4453768/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       18436/16777216 ( 0.1%) 
+entdata               [variable]        6616/393216   ( 1.7%) 
+LDR ambient table      885/65536        3540/262144   ( 1.4%) 
+HDR ambient table      885/65536        3540/262144   ( 1.4%) 
+LDR leaf ambient      3420/65536       95760/1835008  ( 5.2%) 
+HDR leaf ambient       885/65536       24780/1835008  ( 1.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]         441/0        ( 0.0%) 
+physics               [variable]        2314/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4804
+Writing c:\users\isaiah\documents\mapping\fores\fores.bsp
+7 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaiah\documents\mapping\fores\fores.bsp
+PREP OK
+2344 faces
+8412710 square feet [1211430272.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2344 patches before subdivision
+133424 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 647652, max 2024
+transfer lists:   4.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0812 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                  6/16384          72/196608   ( 0.0%) 
+brushsides              36/163840        288/1310720  ( 0.0%) 
+planes                  96/65536        1920/1310720  ( 0.1%) 
+vertexes              2421/65536       29052/786432   ( 3.7%) 
+nodes                  883/65536       28256/2097152  ( 1.3%) 
+texinfos                 3/12288         216/884736   ( 0.0%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2344/65536      131264/3670016  ( 3.6%) 
+hdr faces             2344/65536      131264/3670016  ( 3.6%) 
+origfaces                6/65536         336/3670016  ( 0.0%) 
+leaves                 885/65536       28320/2097152  ( 1.4%) 
+leaffaces             2344/65536        4688/131072   ( 3.6%) 
+leafbrushes            576/65536        1152/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             9516/512000      38064/2048000  ( 1.9%) 
+edges                 4771/256000      19084/1024000  ( 1.9%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          2/8192          176/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     4453768/0        ( 0.0%) 
+HDR lightdata         [variable]     4453768/0        ( 0.0%) 
+visdata               [variable]       18436/16777216 ( 0.1%) 
+entdata               [variable]        6616/393216   ( 1.7%) 
+LDR ambient table      885/65536        3540/262144   ( 1.4%) 
+HDR ambient table      885/65536        3540/262144   ( 1.4%) 
+LDR leaf ambient      3420/65536       95760/1835008  ( 5.2%) 
+HDR leaf ambient      3420/65536       95760/1835008  ( 5.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]         441/0        ( 0.0%) 
+physics               [variable]        2314/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4804
+Writing c:\users\isaiah\documents\mapping\fores\fores.bsp
+7 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Isaiah\Documents\mapping\fores\fores.vmf
+Patching WVT material: maps/fores/gm_construct/grass_13_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Isaiah\Documents\mapping\fores\fores.prt...Building visibility clusters...
+done (0)
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2314 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 3
+Reduced 4 texdatas to 3 (101 bytes to 79)
+Writing C:\Users\Isaiah\Documents\mapping\fores\fores.bsp
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\isaiah\documents\mapping\fores\fores.bsp
+reading c:\users\isaiah\documents\mapping\fores\fores.prt
+ 256 portalclusters
+ 480 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 65536
+Average clusters visible: 256
+Building PAS...
+Average clusters audible: 256
+visdatasize:18436  compressed from 16384
+writing c:\users\isaiah\documents\mapping\fores\fores.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaiah\documents\mapping\fores\fores.bsp
+PREP OK
+2344 faces
+8412710 square feet [1211430272.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2344 patches before subdivision
+133424 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 647652, max 2024
+transfer lists:   4.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0752 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                  6/16384          72/196608   ( 0.0%) 
+brushsides              36/163840        288/1310720  ( 0.0%) 
+planes                  96/65536        1920/1310720  ( 0.1%) 
+vertexes              2421/65536       29052/786432   ( 3.7%) 
+nodes                  883/65536       28256/2097152  ( 1.3%) 
+texinfos                 3/12288         216/884736   ( 0.0%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2344/65536      131264/3670016  ( 3.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces                6/65536         336/3670016  ( 0.0%) 
+leaves                 885/65536       28320/2097152  ( 1.4%) 
+leaffaces             2344/65536        4688/131072   ( 3.6%) 
+leafbrushes            576/65536        1152/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             9516/512000      38064/2048000  ( 1.9%) 
+edges                 4771/256000      19084/1024000  ( 1.9%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     4453768/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       18436/16777216 ( 0.1%) 
+entdata               [variable]        6962/393216   ( 1.8%) 
+LDR ambient table      885/65536        3540/262144   ( 1.4%) 
+HDR ambient table      885/65536        3540/262144   ( 1.4%) 
+LDR leaf ambient      3420/65536       95760/1835008  ( 5.2%) 
+HDR leaf ambient       885/65536       24780/1835008  ( 1.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]         441/0        ( 0.0%) 
+physics               [variable]        2314/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4804
+Writing c:\users\isaiah\documents\mapping\fores\fores.bsp
+7 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaiah\documents\mapping\fores\fores.bsp
+PREP OK
+2344 faces
+8412710 square feet [1211430272.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2344 patches before subdivision
+133424 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 647652, max 2024
+transfer lists:   4.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0826 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                  6/16384          72/196608   ( 0.0%) 
+brushsides              36/163840        288/1310720  ( 0.0%) 
+planes                  96/65536        1920/1310720  ( 0.1%) 
+vertexes              2421/65536       29052/786432   ( 3.7%) 
+nodes                  883/65536       28256/2097152  ( 1.3%) 
+texinfos                 3/12288         216/884736   ( 0.0%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2344/65536      131264/3670016  ( 3.6%) 
+hdr faces             2344/65536      131264/3670016  ( 3.6%) 
+origfaces                6/65536         336/3670016  ( 0.0%) 
+leaves                 885/65536       28320/2097152  ( 1.4%) 
+leaffaces             2344/65536        4688/131072   ( 3.6%) 
+leafbrushes            576/65536        1152/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             9516/512000      38064/2048000  ( 1.9%) 
+edges                 4771/256000      19084/1024000  ( 1.9%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          2/8192          176/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     4453768/0        ( 0.0%) 
+HDR lightdata         [variable]     4453768/0        ( 0.0%) 
+visdata               [variable]       18436/16777216 ( 0.1%) 
+entdata               [variable]        6962/393216   ( 1.8%) 
+LDR ambient table      885/65536        3540/262144   ( 1.4%) 
+HDR ambient table      885/65536        3540/262144   ( 1.4%) 
+LDR leaf ambient      3420/65536       95760/1835008  ( 5.2%) 
+HDR leaf ambient      3420/65536       95760/1835008  ( 5.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]         441/0        ( 0.0%) 
+physics               [variable]        2314/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4804
+Writing c:\users\isaiah\documents\mapping\fores\fores.bsp
+7 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Isaiah\Documents\mapping\fores\fores.vmf
+Patching WVT material: maps/fores/gm_construct/grass_13_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Isaiah\Documents\mapping\fores\fores.prt...Building visibility clusters...
+done (0)
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2314 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 3
+Reduced 4 texdatas to 3 (101 bytes to 79)
+Writing C:\Users\Isaiah\Documents\mapping\fores\fores.bsp
+2 seconds elapsed
+
+
+
+6 threads
+reading c:\users\isaiah\documents\mapping\fores\fores.bsp
+reading c:\users\isaiah\documents\mapping\fores\fores.prt
+ 448 portalclusters
+ 852 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 200704
+Average clusters visible: 448
+Building PAS...
+Average clusters audible: 448
+visdatasize:53764  compressed from 50176
+writing c:\users\isaiah\documents\mapping\fores\fores.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaiah\documents\mapping\fores\fores.bsp
+PREP OK
+4308 faces
+13377595 square feet [1926373632.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4308 patches before subdivision
+244676 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2020668, max 3772
+transfer lists:  15.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1482 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                  6/16384          72/196608   ( 0.0%) 
+brushsides              36/163840        288/1310720  ( 0.0%) 
+planes                 120/65536        2400/1310720  ( 0.2%) 
+vertexes              4411/65536       52932/786432   ( 6.7%) 
+nodes                 1487/65536       47584/2097152  ( 2.3%) 
+texinfos                 3/12288         216/884736   ( 0.0%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4308/65536      241248/3670016  ( 6.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces                6/65536         336/3670016  ( 0.0%) 
+leaves                1489/65536       47648/2097152  ( 2.3%) 
+leaffaces             4308/65536        8616/131072   ( 6.6%) 
+leafbrushes            984/65536        1968/131072   ( 1.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            17424/512000      69696/2048000  ( 3.4%) 
+edges                 8725/256000      34900/1024000  ( 3.4%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     8263944/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       53764/16777216 ( 0.3%) 
+entdata               [variable]        6964/393216   ( 1.8%) 
+LDR ambient table     1489/65536        5956/262144   ( 2.3%) 
+HDR ambient table     1489/65536        5956/262144   ( 2.3%) 
+LDR leaf ambient      6083/65536      170324/1835008  ( 9.3%) 
+HDR leaf ambient      1489/65536       41692/1835008  ( 2.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]         441/0        ( 0.0%) 
+physics               [variable]        2314/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 8784
+Writing c:\users\isaiah\documents\mapping\fores\fores.bsp
+15 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaiah\documents\mapping\fores\fores.bsp
+PREP OK
+4308 faces
+13377595 square feet [1926373632.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4308 patches before subdivision
+244676 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2020668, max 3772
+transfer lists:  15.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1585 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                  6/16384          72/196608   ( 0.0%) 
+brushsides              36/163840        288/1310720  ( 0.0%) 
+planes                 120/65536        2400/1310720  ( 0.2%) 
+vertexes              4411/65536       52932/786432   ( 6.7%) 
+nodes                 1487/65536       47584/2097152  ( 2.3%) 
+texinfos                 3/12288         216/884736   ( 0.0%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4308/65536      241248/3670016  ( 6.6%) 
+hdr faces             4308/65536      241248/3670016  ( 6.6%) 
+origfaces                6/65536         336/3670016  ( 0.0%) 
+leaves                1489/65536       47648/2097152  ( 2.3%) 
+leaffaces             4308/65536        8616/131072   ( 6.6%) 
+leafbrushes            984/65536        1968/131072   ( 1.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            17424/512000      69696/2048000  ( 3.4%) 
+edges                 8725/256000      34900/1024000  ( 3.4%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          2/8192          176/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     8263944/0        ( 0.0%) 
+HDR lightdata         [variable]     8263944/0        ( 0.0%) 
+visdata               [variable]       53764/16777216 ( 0.3%) 
+entdata               [variable]        6964/393216   ( 1.8%) 
+LDR ambient table     1489/65536        5956/262144   ( 2.3%) 
+HDR ambient table     1489/65536        5956/262144   ( 2.3%) 
+LDR leaf ambient      6083/65536      170324/1835008  ( 9.3%) 
+HDR leaf ambient      6083/65536      170324/1835008  ( 9.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]         441/0        ( 0.0%) 
+physics               [variable]        2314/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 8784
+Writing c:\users\isaiah\documents\mapping\fores\fores.bsp
+16 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Isaiah\Documents\mapping\fores\fores.vmf
+Patching WVT material: maps/fores/gm_construct/grass_13_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Isaiah\Documents\mapping\fores\fores.prt...Building visibility clusters...
+done (0)
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2314 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 3
+Reduced 4 texdatas to 3 (101 bytes to 79)
+Writing C:\Users\Isaiah\Documents\mapping\fores\fores.bsp
+2 seconds elapsed
+
+
+
+6 threads
+reading c:\users\isaiah\documents\mapping\fores\fores.bsp
+reading c:\users\isaiah\documents\mapping\fores\fores.prt
+ 448 portalclusters
+ 852 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 200704
+Average clusters visible: 448
+Building PAS...
+Average clusters audible: 448
+visdatasize:53764  compressed from 50176
+writing c:\users\isaiah\documents\mapping\fores\fores.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaiah\documents\mapping\fores\fores.bsp
+PREP OK
+4308 faces
+13377595 square feet [1926373632.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4308 patches before subdivision
+244676 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2020668, max 3772
+transfer lists:  15.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1399 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                  6/16384          72/196608   ( 0.0%) 
+brushsides              36/163840        288/1310720  ( 0.0%) 
+planes                 120/65536        2400/1310720  ( 0.2%) 
+vertexes              4411/65536       52932/786432   ( 6.7%) 
+nodes                 1487/65536       47584/2097152  ( 2.3%) 
+texinfos                 3/12288         216/884736   ( 0.0%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4308/65536      241248/3670016  ( 6.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces                6/65536         336/3670016  ( 0.0%) 
+leaves                1489/65536       47648/2097152  ( 2.3%) 
+leaffaces             4308/65536        8616/131072   ( 6.6%) 
+leafbrushes            984/65536        1968/131072   ( 1.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            17424/512000      69696/2048000  ( 3.4%) 
+edges                 8725/256000      34900/1024000  ( 3.4%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     8263944/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       53764/16777216 ( 0.3%) 
+entdata               [variable]        6964/393216   ( 1.8%) 
+LDR ambient table     1489/65536        5956/262144   ( 2.3%) 
+HDR ambient table     1489/65536        5956/262144   ( 2.3%) 
+LDR leaf ambient      6083/65536      170324/1835008  ( 9.3%) 
+HDR leaf ambient      1489/65536       41692/1835008  ( 2.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]         441/0        ( 0.0%) 
+physics               [variable]        2314/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 8784
+Writing c:\users\isaiah\documents\mapping\fores\fores.bsp
+13 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaiah\documents\mapping\fores\fores.bsp
+PREP OK
+4308 faces
+13377595 square feet [1926373632.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4308 patches before subdivision
+244676 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2020668, max 3772
+transfer lists:  15.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1487 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                  6/16384          72/196608   ( 0.0%) 
+brushsides              36/163840        288/1310720  ( 0.0%) 
+planes                 120/65536        2400/1310720  ( 0.2%) 
+vertexes              4411/65536       52932/786432   ( 6.7%) 
+nodes                 1487/65536       47584/2097152  ( 2.3%) 
+texinfos                 3/12288         216/884736   ( 0.0%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4308/65536      241248/3670016  ( 6.6%) 
+hdr faces             4308/65536      241248/3670016  ( 6.6%) 
+origfaces                6/65536         336/3670016  ( 0.0%) 
+leaves                1489/65536       47648/2097152  ( 2.3%) 
+leaffaces             4308/65536        8616/131072   ( 6.6%) 
+leafbrushes            984/65536        1968/131072   ( 1.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            17424/512000      69696/2048000  ( 3.4%) 
+edges                 8725/256000      34900/1024000  ( 3.4%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          2/8192          176/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     8263944/0        ( 0.0%) 
+HDR lightdata         [variable]     8263944/0        ( 0.0%) 
+visdata               [variable]       53764/16777216 ( 0.3%) 
+entdata               [variable]        6964/393216   ( 1.8%) 
+LDR ambient table     1489/65536        5956/262144   ( 2.3%) 
+HDR ambient table     1489/65536        5956/262144   ( 2.3%) 
+LDR leaf ambient      6083/65536      170324/1835008  ( 9.3%) 
+HDR leaf ambient      6083/65536      170324/1835008  ( 9.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]         441/0        ( 0.0%) 
+physics               [variable]        2314/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 8784
+Writing c:\users\isaiah\documents\mapping\fores\fores.bsp
+13 seconds elapsed
