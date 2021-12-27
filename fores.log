@@ -2210,3 +2210,890 @@ Level flags = 0
 Total triangle count: 3958
 Writing c:\users\isaiah\documents\mapping\fores\fores.bsp
 8 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Isaiah\Documents\mapping\fores\fores.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_start (32.00 -159.24 -119.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (69238 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 42 texinfos to 27
+Reduced 11 texdatas to 10 (310 bytes to 286)
+Writing C:\Users\Isaiah\Documents\mapping\fores\fores.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\isaiah\documents\mapping\fores\fores.bsp
+reading c:\users\isaiah\documents\mapping\fores\fores.prt
+LoadPortals: couldn't read c:\users\isaiah\documents\mapping\fores\fores.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaiah\documents\mapping\fores\fores.bsp
+PREP OK
+Patch Sample Radius Clamped!
+No vis information, direct lighting only.
+2459 faces
+31625878 square feet [4554126336.00 square inches]
+1 Displacements
+6045618 Square Feet [870568960.00 Square Inches]
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0021 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 23/16384         276/196608   ( 0.1%) 
+brushsides             198/163840       1584/1310720  ( 0.1%) 
+planes                 328/65536        6560/1310720  ( 0.5%) 
+vertexes              2581/65536       30972/786432   ( 3.9%) 
+nodes                 3509/65536      112288/2097152  ( 5.4%) 
+texinfos                27/12288        1944/884736   ( 0.2%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples       65231/0           65231/0        ( 0.0%) 
+faces                 2459/65536      137704/3670016  ( 3.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              115/65536        6440/3670016  ( 0.2%) 
+leaves                3511/65536      112352/2097152  ( 5.4%) 
+leaffaces             2467/65536        4934/131072   ( 3.8%) 
+leafbrushes           1126/65536        2252/131072   ( 1.7%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            10450/512000      41800/2048000  ( 2.0%) 
+edges                 5282/256000      21128/1024000  ( 2.1%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      113068/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        7201/393216   ( 1.8%) 
+LDR ambient table     3511/65536       14044/262144   ( 5.4%) 
+HDR ambient table     3511/65536       14044/262144   ( 5.4%) 
+LDR leaf ambient     22663/65536      634564/1835008  (34.6%) 
+HDR leaf ambient      3511/65536       98308/1835008  ( 5.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]        1146/0        ( 0.0%) 
+physics               [variable]       69238/4194304  ( 1.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5038
+Writing c:\users\isaiah\documents\mapping\fores\fores.bsp
+15 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaiah\documents\mapping\fores\fores.bsp
+PREP OK
+Patch Sample Radius Clamped!
+No vis information, direct lighting only.
+2459 faces
+31625878 square feet [4554126336.00 square inches]
+1 Displacements
+6045618 Square Feet [870568960.00 Square Inches]
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0023 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 23/16384         276/196608   ( 0.1%) 
+brushsides             198/163840       1584/1310720  ( 0.1%) 
+planes                 328/65536        6560/1310720  ( 0.5%) 
+vertexes              2581/65536       30972/786432   ( 3.9%) 
+nodes                 3509/65536      112288/2097152  ( 5.4%) 
+texinfos                27/12288        1944/884736   ( 0.2%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples       65231/0           65231/0        ( 0.0%) 
+faces                 2459/65536      137704/3670016  ( 3.8%) 
+hdr faces             2459/65536      137704/3670016  ( 3.8%) 
+origfaces              115/65536        6440/3670016  ( 0.2%) 
+leaves                3511/65536      112352/2097152  ( 5.4%) 
+leaffaces             2467/65536        4934/131072   ( 3.8%) 
+leafbrushes           1126/65536        2252/131072   ( 1.7%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            10450/512000      41800/2048000  ( 2.0%) 
+edges                 5282/256000      21128/1024000  ( 2.1%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          2/8192          176/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      113068/0        ( 0.0%) 
+HDR lightdata         [variable]      113068/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        7201/393216   ( 1.8%) 
+LDR ambient table     3511/65536       14044/262144   ( 5.4%) 
+HDR ambient table     3511/65536       14044/262144   ( 5.4%) 
+LDR leaf ambient     22663/65536      634564/1835008  (34.6%) 
+HDR leaf ambient     22663/65536      634564/1835008  (34.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]        1146/0        ( 0.0%) 
+physics               [variable]       69238/4194304  ( 1.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5038
+Writing c:\users\isaiah\documents\mapping\fores\fores.bsp
+16 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Isaiah\Documents\mapping\fores\fores.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_start (32.00 -159.24 -119.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (69238 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 42 texinfos to 27
+Reduced 11 texdatas to 10 (310 bytes to 286)
+Writing C:\Users\Isaiah\Documents\mapping\fores\fores.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\isaiah\documents\mapping\fores\fores.bsp
+reading c:\users\isaiah\documents\mapping\fores\fores.prt
+LoadPortals: couldn't read c:\users\isaiah\documents\mapping\fores\fores.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaiah\documents\mapping\fores\fores.bsp
+PREP OK
+Patch Sample Radius Clamped!
+No vis information, direct lighting only.
+2459 faces
+31625878 square feet [4554126336.00 square inches]
+1 Displacements
+6045618 Square Feet [870568960.00 Square Inches]
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0029 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 23/16384         276/196608   ( 0.1%) 
+brushsides             198/163840       1584/1310720  ( 0.1%) 
+planes                 328/65536        6560/1310720  ( 0.5%) 
+vertexes              2581/65536       30972/786432   ( 3.9%) 
+nodes                 3509/65536      112288/2097152  ( 5.4%) 
+texinfos                27/12288        1944/884736   ( 0.2%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples       65231/0           65231/0        ( 0.0%) 
+faces                 2459/65536      137704/3670016  ( 3.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              115/65536        6440/3670016  ( 0.2%) 
+leaves                3511/65536      112352/2097152  ( 5.4%) 
+leaffaces             2467/65536        4934/131072   ( 3.8%) 
+leafbrushes           1126/65536        2252/131072   ( 1.7%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            10450/512000      41800/2048000  ( 2.0%) 
+edges                 5282/256000      21128/1024000  ( 2.1%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      113068/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        7198/393216   ( 1.8%) 
+LDR ambient table     3511/65536       14044/262144   ( 5.4%) 
+HDR ambient table     3511/65536       14044/262144   ( 5.4%) 
+LDR leaf ambient     20882/65536      584696/1835008  (31.9%) 
+HDR leaf ambient      3511/65536       98308/1835008  ( 5.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]        1146/0        ( 0.0%) 
+physics               [variable]       69238/4194304  ( 1.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5038
+Writing c:\users\isaiah\documents\mapping\fores\fores.bsp
+18 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaiah\documents\mapping\fores\fores.bsp
+PREP OK
+Patch Sample Radius Clamped!
+No vis information, direct lighting only.
+2459 faces
+31625878 square feet [4554126336.00 square inches]
+1 Displacements
+6045618 Square Feet [870568960.00 Square Inches]
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0026 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 23/16384         276/196608   ( 0.1%) 
+brushsides             198/163840       1584/1310720  ( 0.1%) 
+planes                 328/65536        6560/1310720  ( 0.5%) 
+vertexes              2581/65536       30972/786432   ( 3.9%) 
+nodes                 3509/65536      112288/2097152  ( 5.4%) 
+texinfos                27/12288        1944/884736   ( 0.2%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples       65231/0           65231/0        ( 0.0%) 
+faces                 2459/65536      137704/3670016  ( 3.8%) 
+hdr faces             2459/65536      137704/3670016  ( 3.8%) 
+origfaces              115/65536        6440/3670016  ( 0.2%) 
+leaves                3511/65536      112352/2097152  ( 5.4%) 
+leaffaces             2467/65536        4934/131072   ( 3.8%) 
+leafbrushes           1126/65536        2252/131072   ( 1.7%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            10450/512000      41800/2048000  ( 2.0%) 
+edges                 5282/256000      21128/1024000  ( 2.1%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          2/8192          176/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      113068/0        ( 0.0%) 
+HDR lightdata         [variable]      113068/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        7198/393216   ( 1.8%) 
+LDR ambient table     3511/65536       14044/262144   ( 5.4%) 
+HDR ambient table     3511/65536       14044/262144   ( 5.4%) 
+LDR leaf ambient     20882/65536      584696/1835008  (31.9%) 
+HDR leaf ambient     20882/65536      584696/1835008  (31.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]        1146/0        ( 0.0%) 
+physics               [variable]       69238/4194304  ( 1.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5038
+Writing c:\users\isaiah\documents\mapping\fores\fores.bsp
+18 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Isaiah\Documents\mapping\fores\fores.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_start (32.00 -159.24 -119.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15872.0 16384.0 5856.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (16384.0 15872.0 5856.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (14336.0 15872.0 5816.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (14336.0 15872.0 11816.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (14848.0 16384.0 5856.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (16384.0 14848.0 5856.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (16384.0 13824.0 5856.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (14336.0 14848.0 5816.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (69238 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 42 texinfos to 27
+Reduced 11 texdatas to 10 (310 bytes to 286)
+Writing C:\Users\Isaiah\Documents\mapping\fores\fores.bsp
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\isaiah\documents\mapping\fores\fores.bsp
+reading c:\users\isaiah\documents\mapping\fores\fores.prt
+LoadPortals: couldn't read c:\users\isaiah\documents\mapping\fores\fores.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaiah\documents\mapping\fores\fores.bsp
+PREP OK
+Patch Sample Radius Clamped!
+No vis information, direct lighting only.
+2459 faces
+31625878 square feet [4554126336.00 square inches]
+1 Displacements
+6045618 Square Feet [870568960.00 Square Inches]
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0026 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 23/16384         276/196608   ( 0.1%) 
+brushsides             198/163840       1584/1310720  ( 0.1%) 
+planes                 332/65536        6640/1310720  ( 0.5%) 
+vertexes              2581/65536       30972/786432   ( 3.9%) 
+nodes                 3581/65536      114592/2097152  ( 5.5%) 
+texinfos                27/12288        1944/884736   ( 0.2%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples       65231/0           65231/0        ( 0.0%) 
+faces                 2459/65536      137704/3670016  ( 3.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              115/65536        6440/3670016  ( 0.2%) 
+leaves                3583/65536      114656/2097152  ( 5.5%) 
+leaffaces             2467/65536        4934/131072   ( 3.8%) 
+leafbrushes           1126/65536        2252/131072   ( 1.7%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            10450/512000      41800/2048000  ( 2.0%) 
+edges                 5282/256000      21128/1024000  ( 2.1%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      113352/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        7198/393216   ( 1.8%) 
+LDR ambient table     3583/65536       14332/262144   ( 5.5%) 
+HDR ambient table     3583/65536       14332/262144   ( 5.5%) 
+LDR leaf ambient     21879/65536      612612/1835008  (33.4%) 
+HDR leaf ambient      3583/65536      100324/1835008  ( 5.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]        1146/0        ( 0.0%) 
+physics               [variable]       69238/4194304  ( 1.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5038
+Writing c:\users\isaiah\documents\mapping\fores\fores.bsp
+17 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaiah\documents\mapping\fores\fores.bsp
+PREP OK
+Patch Sample Radius Clamped!
+No vis information, direct lighting only.
+2459 faces
+31625878 square feet [4554126336.00 square inches]
+1 Displacements
+6045618 Square Feet [870568960.00 Square Inches]
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0025 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 23/16384         276/196608   ( 0.1%) 
+brushsides             198/163840       1584/1310720  ( 0.1%) 
+planes                 332/65536        6640/1310720  ( 0.5%) 
+vertexes              2581/65536       30972/786432   ( 3.9%) 
+nodes                 3581/65536      114592/2097152  ( 5.5%) 
+texinfos                27/12288        1944/884736   ( 0.2%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples       65231/0           65231/0        ( 0.0%) 
+faces                 2459/65536      137704/3670016  ( 3.8%) 
+hdr faces             2459/65536      137704/3670016  ( 3.8%) 
+origfaces              115/65536        6440/3670016  ( 0.2%) 
+leaves                3583/65536      114656/2097152  ( 5.5%) 
+leaffaces             2467/65536        4934/131072   ( 3.8%) 
+leafbrushes           1126/65536        2252/131072   ( 1.7%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            10450/512000      41800/2048000  ( 2.0%) 
+edges                 5282/256000      21128/1024000  ( 2.1%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          2/8192          176/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      113352/0        ( 0.0%) 
+HDR lightdata         [variable]      113352/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        7198/393216   ( 1.8%) 
+LDR ambient table     3583/65536       14332/262144   ( 5.5%) 
+HDR ambient table     3583/65536       14332/262144   ( 5.5%) 
+LDR leaf ambient     21879/65536      612612/1835008  (33.4%) 
+HDR leaf ambient     21879/65536      612612/1835008  (33.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]        1146/0        ( 0.0%) 
+physics               [variable]       69238/4194304  ( 1.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5038
+Writing c:\users\isaiah\documents\mapping\fores\fores.bsp
+17 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Isaiah\Documents\mapping\fores\fores.vmf
+Patching WVT material: maps/fores/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_start (32.00 -159.24 -119.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15872.0 16384.0 5856.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (16384.0 15872.0 5856.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (14336.0 15872.0 5816.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (14336.0 15872.0 11816.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (14848.0 16384.0 5856.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (16384.0 14848.0 5856.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (16384.0 13824.0 5856.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (14336.0 14848.0 5816.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (69302 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 45 texinfos to 29
+Reduced 13 texdatas to 11 (373 bytes to 328)
+Writing C:\Users\Isaiah\Documents\mapping\fores\fores.bsp
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\isaiah\documents\mapping\fores\fores.bsp
+reading c:\users\isaiah\documents\mapping\fores\fores.prt
+LoadPortals: couldn't read c:\users\isaiah\documents\mapping\fores\fores.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaiah\documents\mapping\fores\fores.bsp
+PREP OK
+Patch Sample Radius Clamped!
+No vis information, direct lighting only.
+2451 faces
+31596694 square feet [4549923840.00 square inches]
+1 Displacements
+6045618 Square Feet [870568960.00 Square Inches]
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0026 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 23/16384         276/196608   ( 0.1%) 
+brushsides             200/163840       1600/1310720  ( 0.1%) 
+planes                 340/65536        6800/1310720  ( 0.5%) 
+vertexes              2574/65536       30888/786432   ( 3.9%) 
+nodes                 3581/65536      114592/2097152  ( 5.5%) 
+texinfos                29/12288        2088/884736   ( 0.2%) 
+texdata                 11/2048          352/65536    ( 0.5%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples       65231/0           65231/0        ( 0.0%) 
+faces                 2451/65536      137256/3670016  ( 3.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              115/65536        6440/3670016  ( 0.2%) 
+leaves                3583/65536      114656/2097152  ( 5.5%) 
+leaffaces             2459/65536        4918/131072   ( 3.8%) 
+leafbrushes           1126/65536        2252/131072   ( 1.7%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            10412/512000      41648/2048000  ( 2.0%) 
+edges                 5263/256000      21052/1024000  ( 2.1%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      113360/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        7643/393216   ( 1.9%) 
+LDR ambient table     3583/65536       14332/262144   ( 5.5%) 
+HDR ambient table     3583/65536       14332/262144   ( 5.5%) 
+LDR leaf ambient     21376/65536      598528/1835008  (32.6%) 
+HDR leaf ambient      3583/65536      100324/1835008  ( 5.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]        1473/0        ( 0.0%) 
+physics               [variable]       69302/4194304  ( 1.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5016
+Writing c:\users\isaiah\documents\mapping\fores\fores.bsp
+16 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaiah\documents\mapping\fores\fores.bsp
+PREP OK
+Patch Sample Radius Clamped!
+No vis information, direct lighting only.
+2451 faces
+31596694 square feet [4549923840.00 square inches]
+1 Displacements
+6045618 Square Feet [870568960.00 Square Inches]
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0029 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 23/16384         276/196608   ( 0.1%) 
+brushsides             200/163840       1600/1310720  ( 0.1%) 
+planes                 340/65536        6800/1310720  ( 0.5%) 
+vertexes              2574/65536       30888/786432   ( 3.9%) 
+nodes                 3581/65536      114592/2097152  ( 5.5%) 
+texinfos                29/12288        2088/884736   ( 0.2%) 
+texdata                 11/2048          352/65536    ( 0.5%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples       65231/0           65231/0        ( 0.0%) 
+faces                 2451/65536      137256/3670016  ( 3.7%) 
+hdr faces             2451/65536      137256/3670016  ( 3.7%) 
+origfaces              115/65536        6440/3670016  ( 0.2%) 
+leaves                3583/65536      114656/2097152  ( 5.5%) 
+leaffaces             2459/65536        4918/131072   ( 3.8%) 
+leafbrushes           1126/65536        2252/131072   ( 1.7%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            10412/512000      41648/2048000  ( 2.0%) 
+edges                 5263/256000      21052/1024000  ( 2.1%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          3/8192          264/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      113360/0        ( 0.0%) 
+HDR lightdata         [variable]      113360/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        7643/393216   ( 1.9%) 
+LDR ambient table     3583/65536       14332/262144   ( 5.5%) 
+HDR ambient table     3583/65536       14332/262144   ( 5.5%) 
+LDR leaf ambient     21376/65536      598528/1835008  (32.6%) 
+HDR leaf ambient     21376/65536      598528/1835008  (32.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]        1473/0        ( 0.0%) 
+physics               [variable]       69302/4194304  ( 1.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5016
+Writing c:\users\isaiah\documents\mapping\fores\fores.bsp
+17 seconds elapsed
