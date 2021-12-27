@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9169"
-	"mapversion" "55"
+	"mapversion" "54"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "55"
+	"mapversion" "54"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -5089,7 +5089,7 @@ entity
 	"startexture" "skybox/starfield"
 	"suncolor" "0.2 0.1 0.0"
 	"sunnormal" "0.4 0.0 0.01"
-	"sunposmethod" "1"
+	"sunposmethod" "0"
 	"sunsize" "2.0"
 	"topcolor" "0.2 0.5 1.0"
 	"origin" "192 -64 -64"
@@ -5235,29 +5235,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 10500]"
-	}
-}
-entity
-{
-	"id" "11783"
-	"classname" "env_sun"
-	"angles" "0 210 15"
-	"HDRColorScale" "1.0"
-	"material" "sprites/light_glow02_add_noz"
-	"overlaycolor" "0 0 0"
-	"overlaymaterial" "sprites/light_glow02_add_noz"
-	"overlaysize" "-1"
-	"pitch" "0"
-	"rendercolor" "100 80 80"
-	"size" "16"
-	"use_angles" "0"
-	"origin" "672 -217.475 448"
-	editor
-	{
-		"color" "255 0 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
 	}
 }
 cameras
